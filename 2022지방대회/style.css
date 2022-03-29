@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+}
+
+
+
+#pic{
+    font-size: 20px;
+    padding: 100px 13%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    
+}
+
+.icon{
+    position: fixed;
+    background-color: green;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    right:  5%;
+    bottom: 5%;
+}
+
+.box{
+    float: right;
+    margin: 0 30px;
+    position: relative;
+    width:75%;
+}
+.img1{
+    margin: 100px;
+    width: 600px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    position: relative;
+    height: 700px;
+    
+}
+.img2{
+    width: 600px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    height: 700px;
+    z-index: 999;
+}
+
+/* .box:hover .img1{transform: translateX(60px) ;}
+.box:hover .img2{transform: translateX(-60px) ;}
+
+.img1{transform: translateX(0px);transition: all 0.8s ease;}
+.img2{transform: translateX(0px);transition: all 0.8s ease;} */
+
+
+.big{
+    font-size: 38px;
+    text-align: left;
+    
+
+
+}
+.small{
+    margin-top: 0%;
+    font-size: 16px;
+    color: gray;
+
+}
+.san{
+    color: green;
+}
+
+.icon2{
+    margin-top: 30px;
+    background-color: green;
+    display: inline-block;
+    padding: 7px 15px;
+    color: #fff;
+    border-radius: 5px;
+}
+a{
+    text-decoration:none;
+}
+
+.Copy
+{
+    font-size: 15px;
+    color: #888;
+    text-align:center;
+    margin-top: 50px;
+}
+/* 선택자{
+    color: #fff;
+    적용할꺼:적용할 값;
+} */
+
+#pic2{
+
+    background-color: rgb(250, 250, 250);
+}
+
+.him{
+    
+    font-size: 38px;
+    text-align: center;
+
+}
+.slogan{
+
+    margin-right: 100px;
+    font-size: 25px;
+    color: green;
+    text-align: right;
+}
+
+/*
+.small2{
+    margin-top: 0%;
+    font-size: 16px;
+    color: gray;
+
+}
+.san2{
+    color: green;
+}
+
+.big2{
+    font-size: 38px;
+    text-align: left;
+*/
+
+
+.img3{
+    margin: 100px;
+    width: 600px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    position: relative;
+    height: 700px;
+    
+}
+.img4{
+    width: 600px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    height: 700px;
+    
+}
