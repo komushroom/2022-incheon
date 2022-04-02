@@ -1,15 +1,20 @@
-body{
-    margin: 0;
+* {
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
 }
 
-
+html::-webkit-scrollbar {
+    display: none;
+}
 
 #pic{
     font-size: 20px;
     padding: 100px 13%;
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    
+    grid-template-columns: 1fr 1fr ;   
 }
 
 .icon{
@@ -23,52 +28,49 @@ body{
 }
 
 .box{
+    position: relative;
     float: right;
     margin: 0 30px;
-    position: relative;
     width:75%;
 }
 .img1{
-    margin: 100px;
-    width: 600px;
-    position: absolute;
+    width: 500px;
+    position: relative;
     top: 0px;
     right: 0px;
-    position: relative;
-    height: 700px;
+    border-radius: 10px;
     
 }
 .img2{
-    width: 600px;
+    width: 500px;
     position: absolute;
     top: 100px;
     right: 100px;
-    height: 700px;
+    border-radius: 10px;
     z-index: 999;
 }
 
-/* .box:hover .img1{transform: translateX(60px) ;}
-.box:hover .img2{transform: translateX(-60px) ;}
+.text{
+    margin: 100px;                                                                                                              
+    text-align: left;
+    margin: auto 0;
+}
 
-.img1{transform: translateX(0px);transition: all 0.8s ease;}
-.img2{transform: translateX(0px);transition: all 0.8s ease;} */
+.san, .big, .small{
+    margin-top: 15px;
+}
 
+.san{
+    color: green;
+}
 
 .big{
     font-size: 38px;
-    text-align: left;
-    
-
-
 }
+
 .small{
-    margin-top: 0%;
     font-size: 16px;
     color: gray;
-
-}
-.san{
-    color: green;
 }
 
 .icon2{
@@ -79,12 +81,12 @@ body{
     color: #fff;
     border-radius: 5px;
 }
+
 a{
     text-decoration:none;
 }
 
-.Copy
-{
+.Copy{
     font-size: 15px;
     color: #888;
     text-align:center;
@@ -96,56 +98,56 @@ a{
 } */
 
 #pic2{
-
     background-color: rgb(250, 250, 250);
 }
 
 .him{
-    
     font-size: 38px;
     text-align: center;
-
 }
 .slogan{
-
     margin-right: 100px;
     font-size: 25px;
     color: green;
     text-align: right;
 }
 
-/*
-.small2{
-    margin-top: 0%;
-    font-size: 16px;
-    color: gray;
-
-}
-.san2{
-    color: green;
+#pic3{
+    display: grid;
+    width: 100%;
+    height: 500px;
+    grid-template-columns: 1fr 1fr ;  
 }
 
-.big2{
-    font-size: 38px;
-    text-align: left;
-*/
-
-
-.img3{
-    margin: 100px;
-    width: 600px;
-    position: absolute;
-    top: 0px;
-    right: 0px;
+.box2 {
     position: relative;
-    height: 700px;
-    
+    width: 100%;
+    height: 100%;
 }
-.img4{
-    width: 600px;
+
+.img {
+    width: 500px;
+    height: 330px;
     position: absolute;
-    top: 100px;
-    right: 100px;
-    height: 700px;
-    
+    transform: translate(-50%, -50%);
+    border-radius: 10px; 
+}
+
+#img3{
+    left: 55%;
+    top: 45%;
+}
+
+#img4{
+    left: 45%;
+    top: 55%;
+}
+
+.icon3{
+    margin-top: 30px;
+    background-color: green;
+    display: inline-block;
+    padding: 7px 15px;
+    color: #fff;
+    border-radius: 5px;
 }
