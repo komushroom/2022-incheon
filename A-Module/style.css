@@ -2,10 +2,22 @@ body{
     margin: 0;
 }
 
-#nav{
-    margin-left: 70%;
-    font-size: 15px;
+.icon{
+    
+    width :0px;
+    height: 0px;
+    border-radius: 10px;
+    border-bottom: 160px solid rgb(255, 0, 255) ; 
+    border-left: 180px  solid rgb(255, 0, 255);
+    border-right: 180px solid rgb(255, 0, 255);
+    
 }
+.fon{
+    text-align: left;
+}
+
 .new{
-    text-decoration: none;
+    margin-left: 80%;
+    font-size: 15px;
+    text-decoration-line : none ;
 }
