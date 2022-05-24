@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+
+#nav{
+    margin-left: 70%;
+    font-size: 15px;
+}
+.new{
+    text-decoration: none;
+}
