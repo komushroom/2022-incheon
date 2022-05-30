@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+} 
+
+.nav{
+    display: block;
+    background-color: blueviolet;
+    
+}
+
+
+.new{
+    
+    font-size: 15px;
+    text-align: center;
+   
+
+}
+.san1{
+    float: left;
+}
+
+
